@@ -26,7 +26,7 @@ Our research methodology involves formulating pruning as an optimization problem
 In this section, we present the results of our chaos-causality approach to neural network pruning. We demonstrate the effectiveness of our method in reducing network size while preserving performance through comprehensive experiments and analysis.
 
 ## Usage
-To replicate our experiments or apply our chaos-causality pruning approach to your own neural networks, refer to the `code` directory. Detailed usage instructions and code documentation can be found there.
+To replicate our experiments or apply our chaos-causality pruning approach to your own neural networks, refer to the `pipeline.py` and `pipeline2.py` scripts. Detailed usage instructions and code documentation can be found there.
 
 ## Setting Up the Environment
 To ensure a consistent and reproducible environment for running the code in this repository, we recommend setting up the environment using the provided `environment.yml` file. Simply run the following command:
