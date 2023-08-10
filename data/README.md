@@ -1,11 +1,11 @@
-# Datasets Used in [chaotic-pruning]
+# Datasets Used in [chaotic-pruning](https://github.com/RAJAN13-blip/chaotic-pruning/tree/main)
 
-This repository contains details about the datasets used in the [chaotic-pruning] project. These datasets play a crucial role in the research, experiments, and analyses presented in the project.
+This repository contains details about the datasets used in the [chaotic-pruning](https://github.com/RAJAN13-blip/chaotic-pruning/tree/main) project. These datasets play a crucial role in the research, experiments, and analyses presented in the project.
 
 
 ## Introduction
 
-In the [chaotic-pruning] project, we leverage various datasets to explore, analyze, and evaluate our research hypothesis. These datasets have been carefully selected to provide a comprehensive and diverse set of examples that align with our project's goals.
+In the [chaotic-pruning](https://github.com/RAJAN13-blip/chaotic-pruning/tree/main) project, we leverage various datasets to explore, analyze, and evaluate our research hypothesis. These datasets have been carefully selected to provide a comprehensive and diverse set of examples that align with our project's goals.
 
 ## Datasets
 
