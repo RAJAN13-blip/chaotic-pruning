@@ -10,6 +10,7 @@ Reducing the size of a neural network by removing weights without impacting its 
 - [Results](#results)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Setting Up the Environment](#setting-up-the-environment)
 - [License](#license)
 
 ## Introduction
@@ -26,3 +27,11 @@ In this section, we present the results of our chaos-causality approach to neura
 
 ## Usage
 To replicate our experiments or apply our chaos-causality pruning approach to your own neural networks, refer to the `code` directory. Detailed usage instructions and code documentation can be found there.
+
+## Setting Up the Environment
+To ensure a consistent and reproducible environment for running the code in this repository, we recommend setting up the environment using the provided `environment.yml` file. Simply run the following command:
+
+```bash
+conda env create -f environment.yml
+conda activate your_environment_name
+Replace your_environment_name with your desired environment name
