@@ -1,49 +1,22 @@
-# Datasets Used in [Project Name]
+# Datasets Used in [chaotic-pruning]
 
-This repository contains details about the datasets used in the [Project Name] project. These datasets play a crucial role in the research, experiments, and analyses presented in the project.
+This repository contains details about the datasets used in the [chaotic-pruning] project. These datasets play a crucial role in the research, experiments, and analyses presented in the project.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Datasets](#datasets)
-- [Dataset Descriptions](#dataset-descriptions)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-In the [Project Name] project, we leverage various datasets to explore, analyze, and evaluate our research hypothesis. These datasets have been carefully selected to provide a comprehensive and diverse set of examples that align with our project's goals.
+In the [chaotic-pruning] project, we leverage various datasets to explore, analyze, and evaluate our research hypothesis. These datasets have been carefully selected to provide a comprehensive and diverse set of examples that align with our project's goals.
 
 ## Datasets
 
 Below is a list of datasets used in this project:
 
-1. [Dataset 1](link-to-dataset-1): Description of the first dataset.
-2. [Dataset 2](link-to-dataset-2): Description of the second dataset.
-3. [Dataset 3](link-to-dataset-3): Description of the third dataset.
-   <!-- Add more datasets as needed -->
+1. [IRIS](https://github.com/RAJAN13-blip/chaotic-pruning/blob/main/data/Iris.csv)
+2. [BINARY_BANKNOTE](https://github.com/RAJAN13-blip/chaotic-pruning/blob/main/data/binary_banknote.csv)
+3. [BINARY_CANCER](https://github.com/RAJAN13-blip/chaotic-pruning/blob/main/data/binary_cancer.csv)
+4. [TITANIC_TEST](https://github.com/RAJAN13-blip/chaotic-pruning/blob/main/data/titanic_test.csv)
+5. [VOWEL](https://github.com/RAJAN13-blip/chaotic-pruning/blob/main/data/vowel.csv)
 
-## Dataset Descriptions
-
-### Dataset 1
-
-- **Name**: [Dataset 1 Name]
-- **Description**: Brief overview of the dataset, including its source, purpose, and relevant details.
-- **Usage**: How this dataset is used in the project (e.g., training, evaluation, analysis).
-
-### Dataset 2
-
-- **Name**: [Dataset 2 Name]
-- **Description**: Brief overview of the dataset, including its source, purpose, and relevant details.
-- **Usage**: How this dataset is used in the project (e.g., training, evaluation, analysis).
-
-### Dataset 3
-
-- **Name**: [Dataset 3 Name]
-- **Description**: Brief overview of the dataset, including its source, purpose, and relevant details.
-- **Usage**: How this dataset is used in the project (e.g., training, evaluation, analysis).
-  <!-- Add descriptions for more datasets as needed -->
 
 ## Usage
 
