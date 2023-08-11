@@ -29,10 +29,12 @@ In this section, we present the results of our chaos-causality approach to neura
 To replicate our experiments or apply our chaos-causality pruning approach to your own neural networks, refer to the testing.ipynb for our from scratch implementation. Pytorch implementation for mnist can be found in `pipeline.py` and `pipeline2.py` scripts. Detailed usage instructions and code documentation can be found there.
 
 ## Code Pipeline
-- Save Weights and Accuracies for the a particular Network as shown in the testing.ipynb file.
-- Calculate windowed lyapunov exponents using the MATLAB script, LE_window.m.
-- Get non-causal weights by calculating granger causality between windowed lyapunov exponents and misclassification risk using the gc_test.ipynb.
-- Train sparse model as shown in the testing.ipynb file.
+- The process of recording pertinent model information and evaluating its performance has been systematically documented in the `testing.ipynb` notebook. This includes the preservation of model weights and accuracy metrics, crucial for subsequent analyses and enhancements.
+- To extract valuable insights into the dynamics of the model, we employ the MATLAB script `LE_window.m` for computing windowed Lyapunov exponents. This process facilitates a comprehensive understanding of the evolving model behavior across various time windows.
+- Through the utilization of the `gc_test.ipynb` notebook, we evaluate the non-causal weights by conducting a Granger causality assessment between the windowed Lyapunov exponents and the misclassification risk. This data-driven analysis unveils the factors contributing significantly to model performance.
+- The `testing.ipynb` notebook serves as a guide for the rigorous training of a sparse model. This involves the strategic selection of essential features and the systematic regularization of the model's architecture, thereby ensuring optimal performance while promoting model sparsity.
+
+Please consult the respective notebooks and associated scripts for detailed implementation and methodological nuances. These processes collectively contribute to the creation of a well-informed, optimized, and robust model, aligning with the project's overarching objectives.
 
 ## Lypunov Exponent Calculation
 We calculate these using the [Tisean](https://www.pks.mpg.de/tisean) package in MATLAB. Install the package, put LE_window.m file in the bin folder of the package. Set path to read weights from and path to save the windowed lyapunov exponents csv to and then run it. We have fixed the overlap to 10% and windows size to 50, you can experiment with these values as well.
