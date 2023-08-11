@@ -26,10 +26,21 @@ Our research methodology involves formulating pruning as an optimization problem
 In this section, we present the results of our chaos-causality approach to neural network pruning. We demonstrate the effectiveness of our method in reducing network size while preserving performance through comprehensive experiments and analysis.
 
 ## Usage
-To replicate our experiments or apply our chaos-causality pruning approach to your own neural networks, refer to the `pipeline.py` and `pipeline2.py` scripts. Detailed usage instructions and code documentation can be found there.
+To replicate our experiments or apply our chaos-causality pruning approach to your own neural networks, refer to the testing.ipynb for our from scratch implementation. Pytorch implementation for mnist can be found in `pipeline.py` and `pipeline2.py` scripts. Detailed usage instructions and code documentation can be found there.
+
+## Code Pipeline
+- Save Weights and Accuracies for the a particular Network as shown in the testing.ipynb file.
+- Calculate windowed lyapunov exponents using the MATLAB script, LE_window.m.
+- Get non-causal weights by calculating granger causality between windowed lyapunov exponents and misclassification risk using the gc_test.ipynb.
+- Train sparse model as shown in the testing.ipynb file.
+
+## Lypunov Exponent Calculation
+We calculate these using the [Tisean](https://www.pks.mpg.de/tisean) package in MATLAB. Install the package, put LE_window.m file in the bin folder of the package. Set path to read weights from and path to save the windowed lyapunov exponents csv to and then run it. We have fixed the overlap to 10% and windows size to 50, you can experiment with these values as well.
+
 
 ## Setting Up the Environment
 To ensure a consistent and reproducible environment for running the code in this repository, we recommend setting up the environment using the provided `environment.yml` file. Simply run the following command:
+
 
 ```bash
 conda env create -f environment.yml
